@@ -82,14 +82,19 @@ from agents.workflow_schema import (
     WorkflowStatus,
 )
 
-SUBMISSIONS_DIR = Path(__file__).resolve().parent.parent / "data" / "submissions"
-SUBMISSIONS_DIR.mkdir(parents=True, exist_ok=True)
+import os
+from pathlib import Path
 
-REPORTS_DIR = Path(__file__).resolve().parent.parent / "data" / "reports"
+# Writable directory in serverless environments
+BASE_STORAGE = Path(os.getenv("HEOR_STORAGE_DIR", "/tmp/heor"))
 
-_WORKFLOWS_DIR = Path(__file__).resolve().parent.parent / "data" / "workflows"
-_WORKFLOWS_DIR.mkdir(parents=True, exist_ok=True)
+SUBMISSIONS_DIR = BASE_STORAGE / "submissions"
+REPORTS_DIR = BASE_STORAGE / "reports"
+_WORKFLOWS_DIR = BASE_STORAGE / "workflows"
 
+# Ensure directories exist
+for d in [SUBMISSIONS_DIR, REPORTS_DIR, _WORKFLOWS_DIR]:
+    d.mkdir(parents=True, exist_ok=True)
 # Shared orchestrator — initialised once at import time.
 _orchestrator = HEOROrchestrator()
 
