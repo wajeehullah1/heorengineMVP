@@ -66,14 +66,15 @@ logger = logging.getLogger(__name__)
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
 
-_REPO_ROOT = Path(__file__).resolve().parent.parent
-_SUBMISSIONS_DIR = _REPO_ROOT / "data" / "submissions"
-_WORKFLOWS_DIR = _REPO_ROOT / "data" / "workflows"
+# Serverless-safe writable directory
+_BASE_STORAGE = Path(os.getenv("HEOR_STORAGE_DIR", "/tmp/heor"))
 
-# Ensure directories exist at import time
+_SUBMISSIONS_DIR = _BASE_STORAGE / "submissions"
+_WORKFLOWS_DIR = _BASE_STORAGE / "workflows"
+
+# Only /tmp is writable on Vercel
 _SUBMISSIONS_DIR.mkdir(parents=True, exist_ok=True)
 _WORKFLOWS_DIR.mkdir(parents=True, exist_ok=True)
-
 
 # ── Exceptions ────────────────────────────────────────────────────────────────
 
