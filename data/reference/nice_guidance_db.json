@@ -1,0 +1,288 @@
+{
+  "guidance": [
+    {
+      "id": "TA123",
+      "title": "Artificial intelligence for analysing CT brain scans",
+      "type": "Technology Appraisal",
+      "date": "2024-03-15",
+      "decision": "Recommended",
+      "condition": "Stroke",
+      "intervention_types": [
+        "ai",
+        "diagnostic",
+        "imaging"
+      ],
+      "icer": 12500,
+      "comparators": [
+        "standard radiologist review"
+      ],
+      "threshold_category": "standard",
+      "url": "https://www.nice.org.uk/guidance/ta123"
+    },
+    {
+      "id": "TA894",
+      "title": "Dapagliflozin for treating type 2 diabetes",
+      "type": "Technology Appraisal",
+      "date": "2023-11-22",
+      "decision": "Recommended",
+      "condition": "Diabetes",
+      "intervention_types": [
+        "pharmaceutical",
+        "sglt2"
+      ],
+      "icer": 8200,
+      "comparators": [
+        "metformin",
+        "sitagliptin",
+        "standard care"
+      ],
+      "threshold_category": "standard",
+      "url": "https://www.nice.org.uk/guidance/ta894"
+    },
+    {
+      "id": "TA878",
+      "title": "Semaglutide for managing overweight and obesity",
+      "type": "Technology Appraisal",
+      "date": "2023-03-08",
+      "decision": "Recommended with restrictions",
+      "condition": "Obesity",
+      "intervention_types": [
+        "pharmaceutical",
+        "glp1"
+      ],
+      "icer": 22800,
+      "comparators": [
+        "lifestyle intervention",
+        "orlistat"
+      ],
+      "threshold_category": "standard",
+      "url": "https://www.nice.org.uk/guidance/ta878"
+    },
+    {
+      "id": "TA548",
+      "title": "Nivolumab for treating squamous non-small-cell lung cancer",
+      "type": "Technology Appraisal",
+      "date": "2017-02-22",
+      "decision": "Recommended",
+      "condition": "Lung Cancer",
+      "intervention_types": [
+        "pharmaceutical",
+        "immunotherapy"
+      ],
+      "icer": 43600,
+      "comparators": [
+        "docetaxel"
+      ],
+      "threshold_category": "end_of_life",
+      "url": "https://www.nice.org.uk/guidance/ta548"
+    },
+    {
+      "id": "TA902",
+      "title": "Lecanemab for early Alzheimer's disease",
+      "type": "Technology Appraisal",
+      "date": "2024-08-28",
+      "decision": "Not recommended",
+      "condition": "Dementia",
+      "intervention_types": [
+        "pharmaceutical",
+        "monoclonal_antibody"
+      ],
+      "icer": 89000,
+      "comparators": [
+        "standard care"
+      ],
+      "threshold_category": "highly_specialised",
+      "url": "https://www.nice.org.uk/guidance/ta902"
+    },
+    {
+      "id": "NG28",
+      "title": "Type 2 diabetes in adults: management",
+      "type": "NICE Guideline",
+      "date": "2023-08-10",
+      "condition": "Diabetes",
+      "intervention_types": [
+        "digital",
+        "remote_monitoring",
+        "pharmaceutical"
+      ],
+      "recommendations": [
+        "Digital health interventions for self-management",
+        "Remote monitoring of blood glucose",
+        "Structured education programmes",
+        "Individual HbA1c targets"
+      ],
+      "url": "https://www.nice.org.uk/guidance/ng28"
+    },
+    {
+      "id": "NG185",
+      "title": "Remote monitoring of implantable cardiac devices",
+      "type": "NICE Guideline",
+      "date": "2022-11-30",
+      "condition": "Heart Failure",
+      "intervention_types": [
+        "remote_monitoring",
+        "digital",
+        "device"
+      ],
+      "recommendations": [
+        "Remote monitoring for heart failure with devices",
+        "Structured follow-up via digital platforms",
+        "Alert-based clinician review"
+      ],
+      "url": "https://www.nice.org.uk/guidance/ng185"
+    },
+    {
+      "id": "NG206",
+      "title": "COVID-19 rapid guideline: managing COVID-19",
+      "type": "NICE Guideline",
+      "date": "2023-03-29",
+      "condition": "Respiratory",
+      "intervention_types": [
+        "digital",
+        "remote_monitoring",
+        "pharmaceutical"
+      ],
+      "recommendations": [
+        "Pulse oximetry for remote monitoring",
+        "Digital triage tools",
+        "Antiviral treatment pathways"
+      ],
+      "url": "https://www.nice.org.uk/guidance/ng191"
+    },
+    {
+      "id": "NG136",
+      "title": "Hypertension in adults: diagnosis and management",
+      "type": "NICE Guideline",
+      "date": "2023-05-18",
+      "condition": "Hypertension",
+      "intervention_types": [
+        "digital",
+        "remote_monitoring",
+        "pharmaceutical"
+      ],
+      "recommendations": [
+        "Ambulatory blood pressure monitoring",
+        "Home blood pressure monitoring",
+        "Digital tools for adherence support",
+        "Treat-to-target approach"
+      ],
+      "url": "https://www.nice.org.uk/guidance/ng136"
+    },
+    {
+      "id": "MIB234",
+      "title": "Remote patient monitoring for heart failure",
+      "type": "Medtech Innovation Briefing",
+      "date": "2024-01-20",
+      "condition": "Heart Failure",
+      "intervention_types": [
+        "remote_monitoring",
+        "digital",
+        "device"
+      ],
+      "evidence_level": "Moderate",
+      "comparators": [
+        "standard outpatient follow-up"
+      ],
+      "threshold_category": "standard",
+      "url": "https://www.nice.org.uk/advice/mib234"
+    },
+    {
+      "id": "MIB298",
+      "title": "AI-assisted ECG interpretation for atrial fibrillation detection",
+      "type": "Medtech Innovation Briefing",
+      "date": "2024-05-14",
+      "condition": "Atrial Fibrillation",
+      "intervention_types": [
+        "ai",
+        "diagnostic",
+        "digital"
+      ],
+      "evidence_level": "Moderate",
+      "comparators": [
+        "standard 12-lead ECG interpretation"
+      ],
+      "threshold_category": "standard",
+      "url": "https://www.nice.org.uk/advice/mib298"
+    },
+    {
+      "id": "MIB312",
+      "title": "Digital cognitive behavioural therapy for depression",
+      "type": "Medtech Innovation Briefing",
+      "date": "2024-09-03",
+      "condition": "Mental Health",
+      "intervention_types": [
+        "digital",
+        "ai",
+        "cbt"
+      ],
+      "evidence_level": "Low to Moderate",
+      "comparators": [
+        "face-to-face CBT",
+        "waitlist control"
+      ],
+      "threshold_category": "standard",
+      "url": "https://www.nice.org.uk/advice/mib312"
+    },
+    {
+      "id": "DG56",
+      "title": "Ultrasound-guided peripheral intravenous catheter placement",
+      "type": "Diagnostics Guidance",
+      "date": "2023-07-12",
+      "condition": "Vascular Access",
+      "intervention_types": [
+        "diagnostic",
+        "imaging",
+        "device"
+      ],
+      "evidence_level": "High",
+      "comparators": [
+        "landmark technique"
+      ],
+      "threshold_category": "standard",
+      "url": "https://www.nice.org.uk/guidance/dg56"
+    },
+    {
+      "id": "DG61",
+      "title": "Multi-parametric MRI before prostate biopsy",
+      "type": "Diagnostics Guidance",
+      "date": "2023-10-25",
+      "condition": "Prostate Cancer",
+      "intervention_types": [
+        "diagnostic",
+        "imaging",
+        "ai"
+      ],
+      "evidence_level": "High",
+      "comparators": [
+        "systematic TRUS biopsy"
+      ],
+      "threshold_category": "standard",
+      "url": "https://www.nice.org.uk/guidance/dg61"
+    },
+    {
+      "id": "HST18",
+      "title": "Risdiplam for treating spinal muscular atrophy",
+      "type": "Highly Specialised Technology",
+      "date": "2022-04-27",
+      "decision": "Recommended",
+      "condition": "Rare Disease",
+      "intervention_types": [
+        "pharmaceutical",
+        "gene_therapy_adjacent"
+      ],
+      "icer": 67000,
+      "comparators": [
+        "nusinersen",
+        "best supportive care"
+      ],
+      "threshold_category": "highly_specialised",
+      "url": "https://www.nice.org.uk/guidance/hst18"
+    }
+  ],
+  "metadata": {
+    "source": "NICE Guidance Database (curated MVP)",
+    "date_fetched": "2026-02-25T19:32:28.029552",
+    "record_count": 15,
+    "notes": "Curated subset of NICE guidance relevant to HEOR/digital health"
+  }
+}

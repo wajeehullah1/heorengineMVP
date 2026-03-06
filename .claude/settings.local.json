@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3:*)",
+      "Bash(textutil -convert:*)",
+      "Bash(unzip:*)",
+      "Bash(node --version:*)",
+      "Bash(npm:*)",
+      "Bash(npx vite:*)",
+      "Bash(pip install:*)",
+      "Bash(uvicorn app.main:app:*)",
+      "Bash(curl:*)",
+      "Bash(chmod:*)",
+      "Bash(python test_manual.py:*)",
+      "Bash(kill:*)",
+      "Bash(pkill:*)",
+      "Bash(pytest:*)",
+      "Bash(python:*)",
+      "Bash(lsof:*)",
+      "Bash(xargs kill:*)",
+      "Bash(Rscript:*)",
+      "Bash(head:)",
+      "Bash(pip show:)",
+      "Bash(cat:)",
+      "Bash(source .env && pytest tests/test_slr_screener.py -m integration -v 2>&)",
+      "Bash(source .env && pytest tests/test_slr_screener.py -m integration -v 2>&1)",
+      "Bash(source .env:)",
+      "Bash(source .env && curl -s -X POST http://localhost:8000/api/slr/screen \\\\\n  -H \"Content-Type: application/json\" \\\\\n  -d @sample_screening_request.json 2>&)",
+      "Bash(source .env:*)",
+      "Bash(echo:)",
+      "Bash(ls:*)",
+      "Bash(pip show:*)",
+      "Bash(find:*)",
+      "Bash(du:*)",
+      "Bash(grep:*)",
+      "Bash(wc:*)"
+    ]
+  }
+}

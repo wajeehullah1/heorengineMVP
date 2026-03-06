@@ -1,0 +1,42 @@
+{
+  "query": "Heart Failure",
+  "guidance_type": "all",
+  "results": [
+    {
+      "id": "MIB234",
+      "title": "Remote patient monitoring for heart failure",
+      "type": "Medtech Innovation Briefing",
+      "date": "2024-01-20",
+      "condition": "Heart Failure",
+      "intervention_types": [
+        "remote_monitoring",
+        "digital",
+        "device"
+      ],
+      "evidence_level": "Moderate",
+      "comparators": [
+        "standard outpatient follow-up"
+      ],
+      "threshold_category": "standard",
+      "url": "https://www.nice.org.uk/advice/mib234"
+    },
+    {
+      "id": "NG185",
+      "title": "Remote monitoring of implantable cardiac devices",
+      "type": "NICE Guideline",
+      "date": "2022-11-30",
+      "condition": "Heart Failure",
+      "intervention_types": [
+        "remote_monitoring",
+        "digital",
+        "device"
+      ],
+      "recommendations": [
+        "Remote monitoring for heart failure with devices",
+        "Structured follow-up via digital platforms",
+        "Alert-based clinician review"
+      ],
+      "url": "https://www.nice.org.uk/guidance/ng185"
+    }
+  ]
+}

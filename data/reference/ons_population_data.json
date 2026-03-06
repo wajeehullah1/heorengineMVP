@@ -1,0 +1,58 @@
+{
+  "population": {
+    "uk_total": {
+      "total": 67800000,
+      "england": 57000000,
+      "wales": 3150000,
+      "scotland": 5480000,
+      "northern_ireland": 1900000
+    },
+    "england_regions": {
+      "north_east": 2650000,
+      "north_west": 7420000,
+      "yorkshire_humber": 5540000,
+      "east_midlands": 4880000,
+      "west_midlands": 6000000,
+      "east_england": 6300000,
+      "london": 8980000,
+      "south_east": 9280000,
+      "south_west": 5700000
+    },
+    "age_bands": {
+      "0-4": 3650000,
+      "5-9": 3850000,
+      "10-14": 3700000,
+      "15-19": 3350000,
+      "20-24": 3780000,
+      "25-29": 4100000,
+      "30-34": 4250000,
+      "35-39": 4050000,
+      "40-44": 3800000,
+      "45-49": 4150000,
+      "50-54": 4500000,
+      "55-59": 4350000,
+      "60-64": 3980000,
+      "65-69": 3450000,
+      "70-74": 3250000,
+      "75-79": 2450000,
+      "80-84": 1750000,
+      "85+": 1650000
+    },
+    "prevalence_estimates": {
+      "diabetes": 0.068,
+      "hypertension": 0.28,
+      "copd": 0.024,
+      "asthma": 0.086,
+      "heart_disease": 0.063,
+      "stroke_history": 0.018,
+      "cancer_diagnosed": 0.031,
+      "mental_health": 0.17,
+      "dementia": 0.011
+    }
+  },
+  "metadata": {
+    "source": "ONS Mid-Year Population Estimates 2024",
+    "date_fetched": "2026-02-25T19:32:28.028459",
+    "notes": "England population estimates; prevalence from NHS Digital"
+  }
+}

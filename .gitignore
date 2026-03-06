@@ -1,0 +1,66 @@
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+*.env
+
+# API keys and secrets
+secrets/
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+data/submissions/
+data/reports/
+data/slr/
+data/workflows/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp

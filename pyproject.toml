@@ -1,0 +1,12 @@
+[project]
+name = "heor-engine"
+version = "0.1.0"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+asyncio_mode = "auto"
+markers = [
+    "unit: tests that run without any external API calls",
+    "integration: tests that call the Claude API (require ANTHROPIC_API_KEY)",
+]
