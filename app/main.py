@@ -98,12 +98,16 @@ for d in [SUBMISSIONS_DIR, REPORTS_DIR, _WORKFLOWS_DIR]:
 # Shared orchestrator — initialised once at import time.
 _orchestrator = HEOROrchestrator()
 
+@app.get("/")
+def root():
+    return {"message": "HEOR Engine API running"}
+
 app = FastAPI(
     title="HEOR Engine API",
     version="0.2.0",
     description=(
         "Health Economics & Outcomes Research Engine: Budget Impact Analysis, "
-        "Cost-Effectiveness Analysis (Markov), and AI abstract screening (SLR)."
+        "Cost-Effectiveness Analysis (Markov) and AI abstract screening (SLR)."
     ),
 )
 
