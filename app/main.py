@@ -107,6 +107,11 @@ app = FastAPI(
     ),
 )
 
+# Root route so visiting the domain doesn't show Vercel 404
+@app.get("/")
+def root():
+    return {"message": "HEOR Engine API running"}
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
